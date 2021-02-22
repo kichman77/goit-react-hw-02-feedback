@@ -4,6 +4,11 @@
 }
 
 .App {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid wheat;
+  box-shadow: 0 0 20px rgb(174, 177, 174);
+  padding: 150px;
   text-align: center;
 }
 button {

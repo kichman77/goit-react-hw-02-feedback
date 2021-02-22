@@ -3,7 +3,7 @@ import Statistics from "./components/Statistics/Statistics";
 import FeedbackOptions from "./components/FeedbackOptions/FeedbackOptions";
 import Section from "./components/Section/Section";
 import Notification from "./components/Notification/Notification";
-
+import './App.css'
 class App extends Component {
   state = {
     good: 0,
@@ -30,7 +30,7 @@ class App extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="App">
         <Section title="Please leave feedback">
           <FeedbackOptions onLeaveFeedback={this.handleClick} />
         </Section>
